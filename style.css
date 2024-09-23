@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url(bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    color: #333;
+}
+
+.img{
+    
+}
+
+header {
+    background-color: #333;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color:rgba(29, 197, 57, 0.705);
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero .cta-button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.featured-bikes {
+    color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #7b7b67;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+.about {
+    padding: 20px;
+}
+
+.about h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+h3{
+    color: #d24410;
+}
+
+.team-member {
+    color: aliceblue;
+    flex: 1 1 calc(50% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+}
+
+.team-member p {
+    margin: 5px 0;
+}
+
+.bike-category{
+    color: #e00d3b;
+}
+
+.bike-rentals {
+    color: #fff;
+}
+
+.p{
+    color:yellow;
+}

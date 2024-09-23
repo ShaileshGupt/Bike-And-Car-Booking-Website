@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.S. Bike And Car Rider's Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">S.S. Bike & Car Rider's Club</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="rentals.html">Bike&Car Rentals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bike-rentals">
+            <h1>Bike & Car Rentals</h1>
+            <div class="bike-category">
+                <h2>Bike limit Range 120km</h2>
+                <!-- Add mountain bike rental details here -->
+            </div>
+            <div class="bike-category">
+                <h2>Car limit Range 200km</h2>
+                <!-- Add road bike rental details here -->
+            </div>
+            <h2>Book Your Bike</h2>
+            <form action="#" method="post">
+                <label for="bike-type">Choose Bike Or Car:</label>
+                <select id="bike-type" name="bike-type">
+                    <option value="mountain">Bike</option>
+                    <option value="road">Car</option>
+                </select>
+                <label for="rental-duration">Rental Duration (Hours):</label>
+                <input type="number" id="rental-duration" name="rental-duration" min="1" required>
+                <input type="submit" value="Book Now">
+            </form>
+            <p>T&C: Limit Cross Charge Will be Applied</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at: ss.bike.rider143@gmail.com</p>
+        <p>Contact us on <a href="#">8176043827</a></p>
+        <p>&copy; 2024 S.S. Bike & Car Rider's Club</p>
+    </footer>
+</body>
+</html>
